@@ -1,7 +1,9 @@
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
 
-    /// @title Mapping
+    error AmountToSmall(); // Error called if amount to add funds less than Fee;
+
+    /// @title Modifiers
     /// @author codetilda
     /// @notice Task#4 from Growic Solidity Developer Bootcamp - Modifiers 
     /// This task extends the functionality of the previous task. 
@@ -36,8 +38,6 @@ contract UserBalanceV3 {
         uint256 age;
     }
     mapping(address => UserDetails) public userDetails;
-
-    error AmountToSmall(); // Error called if amount to add funds less than Fee;
 
     constructor () {
         owner = payable(msg.sender);
