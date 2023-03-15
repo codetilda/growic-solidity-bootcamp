@@ -7,4 +7,6 @@ Task#2 Mappings. File: UserBalance.sol
 
 Task#3 Structs. File: UserBalanceV2.sol
 
-Task#3 Modifiers. File: UserBalanceV3.sol
+Task#4 Modifiers. File: UserBalanceV3.sol
+
+Task#5 Events. File: UserBalanceV4.sol
