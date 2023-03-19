@@ -17,7 +17,7 @@ contract UserBalanceV4 {
     event FundsAdded(address user, uint256 amount);
     event ProfileUpdated(address user);
 
-    uint256 private Fee = 10; // Contract Fee. User cannot add funds less than Fee;
+    uint256 private constant Fee = 10; // Contract Fee. User cannot add funds less than Fee;
     address payable public owner; // owner of the contract. Sets up in the constructor 
     mapping(address => uint256) public userBalance; // mapping of users balance
     
