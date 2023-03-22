@@ -10,3 +10,5 @@ Task#3 Structs. File: UserBalanceV2.sol
 Task#4 Modifiers. File: UserBalanceV3.sol
 
 Task#5 Events. File: UserBalanceV4.sol
+
+Task#7 Payable. Fila: UserBalanceV5.sol
