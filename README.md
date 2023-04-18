@@ -1,3 +1,5 @@
+***Please don't use this code, because of errors***
+
 # growic-solidity-bootcamp
 Tasks from Solidity Developer Program by Growic
 
